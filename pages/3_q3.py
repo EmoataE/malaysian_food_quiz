@@ -7,7 +7,7 @@ st.write('Name:', st.session_state['name']) #display participant's name
 
 st.title('QUESTION 3')
 st.text('Name the dish in this image')
-img3 = Image.open('roti.png')
+img3 = Image.open('pages/roti.png')
 st.image(img3, width=400)
 q3_choice = st.radio('Select one option', ['A. Roti canai', 'B. Nasi lemak', 'C. Char kway teow', 'D. Nasi kandar'])
 if st.button("Submit"):
