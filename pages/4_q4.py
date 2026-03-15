@@ -23,7 +23,7 @@ st.write('Name:', st.session_state['name']) #display participant's name
 
 st.title('QUESTION 4')
 st.text('Where did this dish, chilli pan mee originate from?')
-img4 = Image.open('mee.png')
+img4 = Image.open('pages/mee.png')
 st.image(img4, width=400)
 q4_choice = st.radio('Select one option', ['A. Johor Bahru', 'B. Kuala Lumpur', 'C. Ipoh', 'D. Melaka City'])
 if st.button("Submit"):
